@@ -1,37 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-   <ul>
-        <a href="/"><li>Default /</li></a>
-        <a href="api"><li>/api</li></a>
-        <a href="api/contacts"><li>GET /api/contacts list all contacts</li></a>        
-   </ul>
-   We will user Postman for below calls 
-        
-   
-        <li>POST /api/contacts create new contact</li>
-        <form method="post" action="api/contacts">
-            <pre>
-           <label>name </label><input type="text" class="type" name="cname"  >
-           <label>gender</label><input type="text" class="type" name="gender">
-           <label>email</label><input type="text" class="type" name="email" >
-           <label>phone</label><input type="text" class="type" name="phone" >
-           <input type="submit" value="Submit">
-        </pre>
-        </form>
-        <ul>
-        <a href="api/contacts/1"><li>GET /api/contacts/{id} retrieve a single contact</li></a>
-        <a href="api/contacts/1"><li>PUT /api/contacts/{id} update a single contact</li></a>
-        <a href="api/contacts/1"><li>DELETE /api/contacts/{id} delete a single contact</li></a>
-               
-        
-   </ul>
 
-</body>
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title Page</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <h1 class="text-center">Hello World</h1>
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
 </html>
